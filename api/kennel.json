@@ -56,16 +56,6 @@
       "animalId": 1
     },
     {
-      "id": 4,
-      "ownerId": 3,
-      "pet": 3
-    },
-    {
-      "id": 5,
-      "ownerId": 3,
-      "animalId": 3
-    },
-    {
       "id": 6,
       "ownerId": 4,
       "animalId": 1
@@ -81,11 +71,6 @@
       "id": 2,
       "name": "Tommolina Thompson",
       "phone": 7654349745
-    },
-    {
-      "id": 3,
-      "name": "Freda Flowers",
-      "phone": 2457654345
     },
     {
       "id": 4,
