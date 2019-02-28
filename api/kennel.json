@@ -1,0 +1,96 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Younker"
+    },
+    {
+      "id": 2,
+      "name": "Jordan Nelson"
+    },
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "10101 Binary Court"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles"
+    },
+    {
+      "id": 2,
+      "name": "Jack"
+    },
+    {
+      "id": 3,
+      "name": "Angus"
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "animalId": 1
+    },
+    {
+      "id": 2,
+      "ownerId": 1,
+      "animalId": 2
+    },
+    {
+      "id": 3,
+      "ownerId": 2,
+      "animalId": 1
+    },
+    {
+      "id": 4,
+      "ownerId": 3,
+      "pet": 3
+    },
+    {
+      "id": 5,
+      "ownerId": 3,
+      "animalId": 3
+    },
+    {
+      "id": 6,
+      "ownerId": 4,
+      "animalId": 1
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Daniel McDanielson",
+      "phone": 7787654345
+    },
+    {
+      "id": 2,
+      "name": "Tommolina Thompson",
+      "phone": 7654349745
+    },
+    {
+      "id": 3,
+      "name": "Freda Flowers",
+      "phone": 2457654345
+    },
+    {
+      "id": 4,
+      "name": "John Jacob Jingleheimer Schmidt",
+      "phone": 5767654345
+    }
+  ]
+}
