@@ -36,7 +36,7 @@
     },
     {
       "id": 3,
-      "name": "Angus"
+      "name": "Booger"
     }
   ],
   "relationships": [
@@ -59,6 +59,11 @@
       "id": 6,
       "ownerId": 4,
       "animalId": 1
+    },
+    {
+      "id": 7,
+      "ownerId": 4,
+      "animalId": 3
     }
   ],
   "owners": [

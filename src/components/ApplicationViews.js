@@ -31,12 +31,8 @@ export default class ApplicationViews extends Component {
     }
 
     removePet = (id) => {
-        fetch(`http://localhost:5002/animals/${id}`, {
-            "method": "DELETE"
-        })
-        .then(r => r.json())
-        .then(() => fetch("http://localhost:5002/animals")
-            .then(r => r.json()))
+       return AnimalManager.deleteOne(id)
+        .then(AnimalManager.getAll)
         .then(animals => this.setState({ animals: animals }))
 
     }
@@ -46,8 +42,8 @@ export default class ApplicationViews extends Component {
             "method": "DELETE"
         })
         .then(r => r.json())
-        .then(() => fetch("http://localhost:5002/owners")
-            .then(r => r.json()))
+        .then(() => fetch("http://localhost:5002/owners"))
+            .then(r => r.json())
         .then(owners => this.setState({ owners: owners }))
         .then(() => fetch('http://localhost:5002/relationships')
             .then(r => r.json()))
@@ -63,7 +59,7 @@ export default class ApplicationViews extends Component {
             .then(() => EmployeeManager.getAll())
             .then(employees => {this.setState({employees: employees})})
             .then(() => fetch("http://localhost:5002/relationships")
-                .then(r => r.json()))
+            .then(r => r.json()))
             .then(relationships => newState.relationships = relationships)
             .then(() => OwnerManager.getAll())
             .then(owners => {this.setState({owners: owners})})
