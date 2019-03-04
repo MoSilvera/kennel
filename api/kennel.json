@@ -2,15 +2,18 @@
   "employees": [
     {
       "id": 1,
-      "name": "Jessica Younker"
+      "name": "Jessica Younker",
+      "phone": 5767654345
     },
     {
       "id": 2,
-      "name": "Jordan Nelson"
+      "name": "Jordan Nelson",
+      "phone": 5767654345
     },
     {
       "id": 3,
-      "name": "Zoe LeBlanc"
+      "name": "Zoe LeBlanc",
+      "phone": 5767654345
     }
   ],
   "locations": [
@@ -28,15 +31,18 @@
   "animals": [
     {
       "id": 1,
-      "name": "Doodles"
+      "name": "Doodles",
+      "breed":"Snuggley Buggley"
     },
     {
       "id": 2,
-      "name": "Jack"
+      "name": "Jack",
+      "breed":"Pettable Boi"
     },
     {
       "id": 3,
-      "name": "Booger"
+      "name": "Booger",
+      "breed":"Fluffy Floot"
     }
   ],
   "relationships": [

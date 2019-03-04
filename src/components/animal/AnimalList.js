@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import dog from "./DogIcon.png"
 import "./Animal.css"
+import { Link } from "react-router-dom"
 
 
 export default class AnimalList extends Component {
@@ -18,6 +19,7 @@ export default class AnimalList extends Component {
                                 Owner: {this.props.relationships.filter(r => r.animalId === animal.id)
                                 .map(ownership => this.props.owners
                                     .find(owner => owner.id === ownership.ownerId).name + ", ")}
+                                <Link className="nav-link" to={`/animals/${animal.id}`}>Details</Link>
                                 <button
                                     onClick={() => this.props.removePet(animal.id)}
                                     className="card-link">Delete</button>
