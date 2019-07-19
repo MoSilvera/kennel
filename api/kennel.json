@@ -2,7 +2,7 @@
   "employees": [
     {
       "id": 1,
-      "name": "Jessica Younker",
+      "name": "Jessica You",
       "phone": 5767654345
     },
     {
@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Zoe LeBlanc",
       "phone": 5767654345
+    },
+    {
+      "name": "THE DUDE",
+      "phone": "6546546542",
+      "id": 4
     }
   ],
   "locations": [
@@ -32,17 +37,26 @@
     {
       "id": 1,
       "name": "Doodles",
-      "breed":"Snuggley Buggley"
+      "breed": "Snuggley Buggley",
+      "employeeId": 1
     },
     {
       "id": 2,
       "name": "Jack",
-      "breed":"Pettable Boi"
+      "breed": "Pettable ",
+      "employeeId": 1
     },
     {
       "id": 3,
       "name": "Booger",
-      "breed":"Fluffy Floot"
+      "breed": "Fluffy Floot",
+      "employeeId": 1
+    },
+    {
+      "name": "Snoopy",
+      "breed": "Cartoonish Boi",
+      "employeeId": 4,
+      "id": 4
     }
   ],
   "relationships": [
@@ -87,6 +101,11 @@
       "id": 4,
       "name": "John Jacob Jingleheimer Schmidt",
       "phone": 5767654345
+    },
+    {
+      "name": "Jane",
+      "phone": "6546546542",
+      "id": 5
     }
   ]
 }

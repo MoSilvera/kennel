@@ -15,6 +15,13 @@ export default class OwnerList extends Component {
                     </div>
                 )
             }
+             <button type="button"
+                            className="btn btn-success"
+                            onClick={() => {
+                                this.props.history.push("/owners/new")}
+                            }>
+                        Add Owner
+                    </button>
             </section>
         );
     }
